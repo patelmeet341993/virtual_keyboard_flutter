@@ -1,4 +1,4 @@
-package com.fisproject.virtual_keyboard
+package friendlyitsolution.com.virtualkeyboardJCS
 
 import io.flutter.embedding.android.FlutterActivity
 

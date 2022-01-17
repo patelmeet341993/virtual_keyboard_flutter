@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "94460048028",
+    "firebase_url": "https://virtual-keyboard-485ab.firebaseio.com",
+    "project_id": "virtual-keyboard-485ab",
+    "storage_bucket": "virtual-keyboard-485ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94460048028:android:fa73ef6629c320edebb359",
+        "android_client_info": {
+          "package_name": "friendlyitsolution.com.virtualkeyboardJCS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94460048028-3um7p16t5c4g480d1gtl6b74pbbs88cu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.virtualkeyboardJCS",
+            "certificate_hash": "00a023f69f18f8aa2288b806602d0f6bf7201dd3"
+          }
+        },
+        {
+          "client_id": "94460048028-4qg53r5rh75dm7uqn0cao8iaa2mhc1nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.virtualkeyboardJCS",
+            "certificate_hash": "7b6f12effff0f0393c77106e475656c3eeb7628d"
+          }
+        },
+        {
+          "client_id": "94460048028-5pbsc3ck7eim8c0j399gpvmr85e6n6go.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.virtualkeyboardJCS",
+            "certificate_hash": "68e191301e23f16dedd7bc7dbe5be0b655ef71ee"
+          }
+        },
+        {
+          "client_id": "94460048028-9sb0q5ibpfm1e4dnm250am7na40gfrk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.virtualkeyboardJCS",
+            "certificate_hash": "8ce77eda7d9f1097d197d609f624daf4a4f00632"
+          }
+        },
+        {
+          "client_id": "94460048028-v35bcrn3ilmutmtembj2s0fihkcungr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbbz8eYp0EjTTbWROyaw9n-CG9mCb7YZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94460048028-v35bcrn3ilmutmtembj2s0fihkcungr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

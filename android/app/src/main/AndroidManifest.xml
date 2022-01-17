@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fisproject.virtual_keyboard">
+    package="friendlyitsolution.com.virtualkeyboardJCS">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="virtual_keyboard"
+        android:label="Virtual Keyboard"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
