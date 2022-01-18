@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Styles {
   //Theme Colors
-  static const Color primaryColor = Color(0XFF2f3a61);
+  static const Color primaryColor = Color(0XFF1c55ff);
   static const Color iconColor = Color(0xff495057);
   static const Color grey = Color(0XFFC3C3C3);
   static const Color light_grey = Color(0XFFB3B3B3);

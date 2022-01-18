@@ -150,8 +150,8 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget getLogo() {
     return Container(
       margin: EdgeInsets.only(bottom: MySize.size34!),
-      width: MySize.size100!,
-      height: MySize.size100!,
+      width: MySize.getScaledSizeHeight(200),
+      height: MySize.getScaledSizeHeight(200),
       child: Image.asset("assets/logo.png"),
     );
   }
