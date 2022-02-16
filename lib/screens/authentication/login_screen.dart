@@ -361,43 +361,45 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Widget getLoginWithGoogleButton() {
-    return InkWell(
-      onTap: signInWithGoogle,
-      child: Container(
-        margin: EdgeInsets.only(left: MySize.size24!, right: MySize.size24!, top: MySize.size36!),
-        decoration: BoxDecoration(
-          color: Styles.primaryColor,
-          borderRadius: BorderRadius.circular(MySize.size10!),
-          boxShadow: [
-            BoxShadow(
-              color: Styles.primaryColor.withAlpha(100),
-              blurRadius: 5,
-              offset: Offset(
-                  0, 5), // changes position of shadow
-            ),
-          ],
-        ),
-        child: Row(
-          children: [
-            Container(
-              padding: EdgeInsets.all(MySize.size8!),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(MySize.size10!,),
-                color: Colors.white,
+    return Container(
+      margin: EdgeInsets.only(left: MySize.size24!, right: MySize.size24!, top: MySize.size36!),
+      child: InkWell(
+        onTap: signInWithGoogle,
+        child: Container(
+          decoration: BoxDecoration(
+            color: Styles.primaryColor,
+            borderRadius: BorderRadius.circular(MySize.size10!),
+            boxShadow: [
+              BoxShadow(
+                color: Styles.primaryColor.withAlpha(100),
+                blurRadius: 5,
+                offset: Offset(
+                    0, 5), // changes position of shadow
               ),
-              child: Image.asset("assets/google logo.png", width: MySize.size30, height: MySize.size30,),
-            ),
-            Expanded(
-              child: Text(
-                "Sign in With Google",
-                style: TextStyle(
+            ],
+          ),
+          child: Row(
+            children: [
+              Container(
+                padding: EdgeInsets.all(MySize.size8!),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(MySize.size10!,),
                   color: Colors.white,
-                  fontWeight: FontWeight.w600,
                 ),
-                textAlign: TextAlign.center,
+                child: Image.asset("assets/google logo.png", width: MySize.size30, height: MySize.size30,),
               ),
-            ),
-          ],
+              Expanded(
+                child: Text(
+                  "Sign in With Google",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
