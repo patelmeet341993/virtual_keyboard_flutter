@@ -97,13 +97,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       child: Text(
         text,
+        style: const TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 30
+        ),
         overflow: TextOverflow.ellipsis,
       ),
     );
-  }
-
-  Widget getStatusText(String text) {
-    return Center(child: Text(text));
   }
 
   Widget getOnOffSwitch() {
